@@ -16,8 +16,8 @@ dist/
 build/
 
 ## Local data and secrets
-#tls-certs/
-#portal-db/
+tls-certs/
+portal-db/
 
 # Git
 .git
