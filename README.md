@@ -1,9 +1,10 @@
 # SIPS.Connect.Portal
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/abdoulhakim/sips-connect)](https://hub.docker.com/r/abdoulhakim/sips-connect)
-[![Docker Image Size](https://img.shields.io/docker/image-size/abdoulhakim/sips-connect/latest)](https://hub.docker.com/r/abdoulhakim/sips-connect)
+[![Docker Pulls](https://img.shields.io/docker/pulls/abdoulhakim/sips-connect-portal)](https://hub.docker.com/r/abdoulhakim/sips-connect-portal)
+[![Docker Image Size](https://img.shields.io/docker/image-size/abdoulhakim/sips-connect-portal/2.0.0)](https://hub.docker.com/r/abdoulhakim/sips-connect-portal)
 [![Docker](https://img.shields.io/badge/docker-ready-blue)](https://www.docker.com/)
 [![HTTPS](https://img.shields.io/badge/https-enabled-green)](#)
+
 
 A **Dockerized Next.js portal** for the SIPS Connect platform, running with HTTPS and **UI-driven runtime configuration**.
 
