@@ -1,6 +1,6 @@
 services:
   portal:
-    image: abdoulhakim/sips-connect-portal:2.0.0
+    image: abdoulhakim/sips-connect-portal:1.5.3
     ports:
       - "3000:3000"
     environment:
