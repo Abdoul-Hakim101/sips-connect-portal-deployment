@@ -1,16 +1,16 @@
+name: sips-connect
 services:
   portal:
-    image: abdoulhakim/sips-connect-portal:1.5.3
+    image: abdoulhakim/sips-connect-portal:1.5.4
     ports:
       - "3000:3000"
     environment:
       - NEXTJS_TLS_CERT=/app/certs/tls.crt
       - NEXTJS_TLS_KEY=/app/certs/tls.key
-    restart: always
+    restart: unless-stopped
     volumes:
       - ./tls-certs:/app/certs:ro
       - ./portal-db/db.json:/app/db.json:rw
-    entrypoint: ["/bin/sh", "/app/entrypoint-https.sh"]
     networks:
       - sips-network
 
