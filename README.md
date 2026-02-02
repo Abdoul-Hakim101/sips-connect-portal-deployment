@@ -1,16 +1,22 @@
 # SIPS.Connect.Portal
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/abdoulhakim/sips-connect-portal)](https://hub.docker.com/r/abdoulhakim/sips-connect-portal)
-[![Docker Image Size](https://img.shields.io/docker/image-size/abdoulhakim/sips-connect-portal/1.5.5)](https://hub.docker.com/r/abdoulhakim/sips-connect-portal)
+[![Docker Image Size](https://img.shields.io/docker/image-size/abdoulhakim/sips-connect-portal/latest)](https://hub.docker.com/r/abdoulhakim/sips-connect-portal)
 [![Docker](https://img.shields.io/badge/docker-ready-blue)](https://www.docker.com/)
 [![HTTPS](https://img.shields.io/badge/https-enabled-green)](#)
-
 
 A **Dockerized Next.js portal** for the SIPS Connect platform, running with HTTPS and **UI-driven runtime configuration**.
 
 No `.env` files.
 No rebuilds for config changes.
 Just start the container and configure everything from the UI.
+
+---
+
+## 🔖 Branching & Releases
+
+- `main` → always points to the latest stable version
+- `release/x.y.z` → frozen release branches for previous versions
 
 ---
 
