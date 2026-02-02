@@ -1,7 +1,7 @@
 # SIPS.Connect.Portal
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/abdoulhakim/sips-connect-portal)](https://hub.docker.com/r/abdoulhakim/sips-connect-portal)
-[![Docker Image Size](https://img.shields.io/docker/image-size/abdoulhakim/sips-connect-portal/1.5.4)](https://hub.docker.com/r/abdoulhakim/sips-connect-portal)
+[![Docker Image Size](https://img.shields.io/docker/image-size/abdoulhakim/sips-connect-portal/1.5.5)](https://hub.docker.com/r/abdoulhakim/sips-connect-portal)
 [![Docker](https://img.shields.io/badge/docker-ready-blue)](https://www.docker.com/)
 [![HTTPS](https://img.shields.io/badge/https-enabled-green)](#)
 
