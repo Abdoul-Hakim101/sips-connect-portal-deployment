@@ -48,8 +48,8 @@ SIPS.Connect.Portal/
 ├── tls-certs/                # TLS certificates (user-provided)
 │   ├── tls.crt               # TLS certificate Provided by user
 │   └── tls.key               # TLS private key Provided by user
-├── portal-db/                # Runtime configuration (included by default)
-│   └── db.json
+├── ui-config/                # Runtime configuration (included by default)
+│   └── settings.json
 ├── docker-compose.yml
 ├── Dockerfile
 ├── entrypoint-https.sh
@@ -58,7 +58,7 @@ SIPS.Connect.Portal/
 └── README.md
 ```
 
-> ✅ The project ships with a default `db.json`
+> ✅ The project ships with a default `settings.json`
 > ❗ The **only required user setup** is providing TLS certificates
 
 ---
@@ -85,7 +85,7 @@ tls-certs/
 
 ---
 
-## ⚙️ Runtime Configuration (db.json)
+## ⚙️ Runtime Configuration (settings.json)
 
 The application ships with a default config file:
 
